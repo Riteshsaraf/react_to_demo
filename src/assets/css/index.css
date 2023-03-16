@@ -1,0 +1,114 @@
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body > div,
+.full-height {
+  height: 100%;
+}
+
+.float-container {
+  display: flex;
+  border: 3px solid #fff;
+  padding: 20px;
+  height: 100%;
+}
+
+.float-child {
+  width: 50%;
+  /*height: 100%;*/
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.float-child div{
+  display: block;
+}
+
+.float-child div, a{
+  text-align: center;
+}
+
+.float-child  a{
+  margin:20% 20%;
+  text-align: center;
+}
+
+.chat-header{
+  width: 100%;
+  background: lightblue;
+  height: 20%;
+}
+
+.chat-header .image{
+
+}
+
+.chat-header .title{
+  font-family: Arial;
+  text-align: left;
+  font-size: 50px;
+}
+
+.chat-body{
+  width: 100%;
+  height: 50%;
+  background: lightyellow;
+}
+
+.chat-body div{
+  margin: 5px;
+}
+
+.chat-body .msg-owner{
+  width: auto;
+  height:auto;
+  border:1px solid lightgray;
+  text-align: left;
+  display: block;
+  background: #ffb6c18c;
+}
+
+.chat-body .msg-client{
+  text-align: right;
+  display: block;
+  width: auto;
+  height:auto;
+  border:1px solid lightgray;
+  background: lightcyan;
+}
+
+.chat-footer{
+  width: 100%;
+  background: lightblue;
+  height: 20%;
+  display: flex;
+}
+
+.chat-input {
+  width: 80%;
+  height: 20%;
+  margin:2%;
+  align-self: flex-start;
+  text-align: left;
+  border : 1px solid black;
+  border-radius: 5px;
+}

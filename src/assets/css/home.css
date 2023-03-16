@@ -1,0 +1,48 @@
+.logo {
+    float: left;
+    width: 150px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.logo>img{
+    vertical-align: top;
+}
+
+.ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.ant-badge{
+    float: right;
+    height: 31px;
+    margin: 16px 0px 0px 0;
+}
+
+.ant-popover-inner-content > .ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border-right:0px;
+}
+
+.site-layout-background>div{
+    display: block;
+    width:100%;
+}
+.createButton{
+    float:right;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.ant-layout-content {
+    overflow-y:auto;
+}
+
+.ant-popover-content p {
+    margin: 0;
+}
